@@ -1,12 +1,9 @@
 import streamlit as st
-import os
-from dotenv import load_dotenv
 import google.generativeai as genai
 from PyPDF2 import PdfReader
 
-# Load environment variables and configure API
-load_dotenv()
-genai.configure(api_key=os.getenv("AIzaSyCWzR1ZOjC3buTUoYuZOZzYIVUkJOItssMY"))
+# Configure API with direct API key
+genai.configure(api_key="AIzaSyDJKcWW9R-WogY5N4h1ZR50Roe9EizJIlQ")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Function to get Gemini output
