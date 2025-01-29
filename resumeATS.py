@@ -23,7 +23,7 @@ def read_pdf(uploaded_file):
         raise FileNotFoundError("No file uploaded")
 
 # Streamlit UI
-st.set_page_config(page_title="ResumeATS Pro", layout="wide")
+st.set_page_config(page_title="TEJ-ResumeATS Pro", layout="wide")
 
 # Custom CSS for Apple-inspired design
 st.markdown("""
