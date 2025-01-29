@@ -43,7 +43,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("ResumeATS Pro")
+st.title("TEJ-ResumeATS Pro")
 st.subheader("Optimize Your Resume for ATS and Land Your Dream Job")
 
 # File upload
